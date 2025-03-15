@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.kijelzo {
+    grid-area: kij;
+    border: 2px solid #555;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    height: 40px;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kifejezes {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.eredmeny {
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #f8d210;
+}
