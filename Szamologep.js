@@ -8,6 +8,7 @@ export function initSzamologep() {
   for (let i = 0; i <= 9; i++) {
     let gomb = document.createElement("button");
     gomb.textContent = i;
+    gomb.setAttribute("data-id", i);
     gomb.addEventListener("click", () => {
       kifejezesElem.textContent += i;
     });
